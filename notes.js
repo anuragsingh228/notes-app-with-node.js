@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 
-var fetchNotes = () => {
+var fetchNotes = () => { 
     try {
         var notesString = fs.readFileSync('notes-data.json');
         return JSON.parse(notesString);
