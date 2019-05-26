@@ -18,7 +18,7 @@ var addNote = (title, body) => {
     var notes = fetchNotes();
     var note = {
         title,
-        body
+        body 
     }
 
     var duplicatesNotes = notes.filter((note) => {
